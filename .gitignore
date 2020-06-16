@@ -1,4 +1,7 @@
-venv
+geo-env
 *.pyc
 .env
 .DS_Store
+
+
+
