@@ -115,27 +115,6 @@ app.run_server(debug=False)
 
 
 
-"""
-app.layout = html.Div([
-    html.Div([
-        html.Div([
-            html.H3('Column 1'),
-            dcc.Graph()
-        ], className="six columns"),
-
-        html.Div([
-            html.H3('Column 2'),
-            dcc.Graph()
-        ], className="six columns"),
-    ], className="row")
-])
-
-
-app.css.append_css({
-    'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'
-})
-
-"""
 
 
 
