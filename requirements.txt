@@ -1,6 +1,8 @@
 async-generator==1.10
 attrs==19.3.0
 backcall==0.1.0
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
+branca @ file:///home/conda/feedstock_root/build_artifacts/branca_1588860304135/work
 Brotli==1.0.7
 brotlipy==0.7.0
 certifi==2020.4.5.2
@@ -24,11 +26,15 @@ entrypoints==0.3
 Fiona==1.8.13
 Flask==1.1.2
 Flask-Compress==1.5.0
+folium @ file:///home/conda/feedstock_root/build_artifacts/folium_1588861378954/work
 future==0.18.2
 GDAL==3.0.4
 geopandas==0.7.0
 gunicorn==20.0.4
 idna==2.9
+importlib-metadata @ file:///D:/bld/importlib-metadata_1591451928112/work
+ipykernel @ file:///D:/bld/ipykernel_1590020325579/work/dist/ipykernel-5.3.0-py3-none-any.whl
+ipython @ file:///D:/bld/ipython_1590797142771/work
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
 itsdangerous==1.1.0
@@ -45,16 +51,21 @@ munch==2.5.0
 nbconvert==5.6.1
 nbformat==5.0.6
 notebook==6.0.3
+numpy @ file:///D:/bld/numpy_1588605212216/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandas @ file:///D:/bld/pandas_1590752956403/work
 pandocfilters==1.4.2
 parso==0.7.0
 pickleshare==0.7.5
 plotly==4.8.1
 plotly-geo==1.0.0
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
 prompt-toolkit==3.0.5
 pycparser==2.20
 Pygments==2.6.1
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
+pyproj @ file:///D:/bld/pyproj_1588596185566/work
 pyrsistent==0.16.0
 pyshp==2.1.0
 PySocks==1.7.1
@@ -68,12 +79,15 @@ retrying==1.3.3
 Rtree==0.9.4
 Send2Trash==1.5.0
 Shapely==1.7.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
 terminado==0.8.3
 testpath==0.4.4
 tornado==6.0.4
 traitlets==4.3.3
 urllib3==1.25.9
 voila==0.1.21
+voila-material @ file:///home/conda/feedstock_root/build_artifacts/voila-material_1591095271511/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1591117871324/work
 webencodings==0.5.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
