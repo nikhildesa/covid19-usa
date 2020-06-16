@@ -1,4 +1,4 @@
-web: gunicorn covid19_usa:app
+web: gunicorn covid19-nikhil:app
 
 
 
