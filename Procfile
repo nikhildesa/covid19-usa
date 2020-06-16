@@ -1,4 +1,4 @@
-web: gunicorn covid19-nikhil:server
+web: gunicorn covid19_usa:server
 
 
 
