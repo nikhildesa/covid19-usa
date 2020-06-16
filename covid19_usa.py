@@ -1,16 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 15 15:43:01 2020
-
-@author: nikhi
-"""
-
 
 import pandas as pd
-import plotly.express as px  # (version 4.7.0)
+import plotly.express as px  
 import plotly.graph_objects as go
 
-import dash  # (version 1.12.0) pip install dash
+import dash  
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
@@ -29,7 +22,7 @@ fig = go.Figure(
         locationmode = 'USA-states',
         colorscale = 'matter',
         colorbar_title = 'Postive cases',
-        marker_line_color='white', # line markers between states
+        marker_line_color='white',
         
         )
     
@@ -38,9 +31,8 @@ fig = go.Figure(
 fig.update_layout(
     title = '<b>Covid-19 Confirmed cases in USA</b>',
     title_x = 0.5,
-    #xaxis = dict(title = 'countries'),
-    #yaxis = dict(title = 'deaths'),
-    geo_scope='usa', # limite map scope to USA
+  
+    geo_scope='usa',
     template='plotly_dark'
 )
 
@@ -66,7 +58,6 @@ fig3.update_layout(uniformtext_minsize=8, uniformtext_mode='hide',template='plot
 fig3.show()
 
 
-#<------------------------------------------------------------------>
 app = dash.Dash(__name__)
 server = app.server
 app.layout = html.Div([
@@ -95,10 +86,6 @@ app.layout = html.Div([
         ])
   
 ])
-app.css.append_css({
-    'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'
-})
-
 
 app.run_server(debug=False) 
 
